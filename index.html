@@ -8,6 +8,8 @@
     <title>Panda Commerce</title>
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -44,7 +46,7 @@
         </nav>
         <!-- image slider -->
         <section class="mt-5 mb-5">
-            <div id="carouselExampleControls" class="carousel slide bg-info rounded-3" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide my-slider-bg" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item px-5 py-4 active">
                         <div class="row align-items-center">
@@ -52,8 +54,8 @@
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
                                     front of funky world.</p>
-                                <h1 class="text-success">$420</h1>
-                                <div class="btn btn-success">Buy Now</div>
+                                <h1 class="price">$420</h1>
+                                <div class="btn my-button">Buy Now</div>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -66,8 +68,8 @@
                                 <h1>Mega LCD TV For Sports</h1>
                                 <p>This is the best tv in the world for people who just want to waste time in front of
                                     tv.</p>
-                                <h1 class="text-success">$1200</h1>
-                                <div class="btn btn-success">Buy Now</div>
+                                <h1 class="price">$1200</h1>
+                                <div class="btn my-button">Buy Now</div>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -80,8 +82,8 @@
                                 <h1>X-Box for your living room</h1>
                                 <p>This is the best x-box in the world for people who just want to waste time in front
                                     of fake sports.</p>
-                                <h1 class="text-success">$600</h1>
-                                <div class="btn btn-success">Buy Now</div>
+                                <h1 class="price">$600</h1>
+                                <div class="btn my-button">Buy Now</div>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -103,35 +105,34 @@
         </section>
     </header>
     <!-- header section end -->
-    
+
     <!-- main secetion start -->
     <main>
         <!-- categories section -->
         <section class="my-5">
-            <div class="container overflow-hidden">
+            <div class="container overflow-hidden categories">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
                         <div
-                            class="px-3 py-1 border bg-warning text-white d-flex align-items-center justify-content-between rounded-3">
+                            class="px-5 py-2 border bg-warning text-white d-flex align-items-center justify-content-between cat1">
                             <h1>Watch</h1>
                             <img src="images/categories/watch.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div
-                            class="px-3 py-1 border bg-success text-white d-flex align-items-center justify-content-between rounded-3">
+                            class="px-5 py-2 border bg-success text-white d-flex align-items-center justify-content-between cat2">
                             <h1>Bag</h1>
                             <img src="images/categories/bag.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div
-                            class="px-3 py-1 border bg-primary text-white d-flex align-items-center justify-content-between rounded-3">
+                            class="px-5 py-2 border bg-primary text-white d-flex align-items-center justify-content-between cat3">
                             <h1>Shoes</h1>
                             <img src="images/categories/shoes.png" alt="">
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -147,11 +148,8 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to additional.</p>
                             <h5>$120</h5>
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
+                            <button class="btn my-button" type="submit">Buy Now >></button>
                         </div>
-                        <!-- <div class="m-3">
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col">
@@ -162,7 +160,7 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
                                 content.</p>
                             <h5>$120</h5>
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
+                            <button class="btn my-button" type="submit">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -174,7 +172,7 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional.</p>
                             <h5>$120</h5>
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
+                            <button class="btn my-button" type="submit">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -194,7 +192,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer p-3 border-top-0 bg-transparent">
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
+                            <button class="btn my-button" type="submit">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -208,7 +206,7 @@
                                 content</p>
                         </div>
                         <div class="card-footer p-3 border-top-0 bg-transparent">
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
+                            <button class="btn my-button" type="submit">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -223,7 +221,7 @@
                                 height action.</p>
                         </div>
                         <div class="card-footer p-3 border-top-0 bg-transparent">
-                            <button class="btn btn-warning" type="submit">Buy Now >></button>
+                            <button class="btn my-button" type="submit">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -231,14 +229,15 @@
         </section>
         <!-- subscribe section -->
         <section class="container mb-5">
-            <div style="height: 400px;" class="px-3 d-flex justify-content-center align-items-center text-center bg-info border rounded">
+            <div class="px-3 d-flex justify-content-center align-items-center text-center my-slider-bg"
+                id="subscribe">
                 <div>
                     <h3>LET'S STAY IN TOUCH</h3>
-                    <h6>Get updates on sales, specials and more</h6>
+                    <h6 class="text-secondary">Get updates on sales, specials and more</h6>
                     <div class="input-group input-group-lg flex-nowrap">
-                        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Username"
+                        <input type="email" class="form-control text-black-50" placeholder="Enter your email" aria-label="Username"
                             aria-describedby="addon-wrapping">
-                        <button class="input-group-text" id="addon-wrapping">Submit</button>
+                        <button class="input-group-text my-button" id="addon-wrapping">Send</button>
                     </div>
                 </div>
             </div>

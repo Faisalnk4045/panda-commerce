@@ -1,0 +1,32 @@
+.my-slider-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.price{
+    color: #FF136F;
+}
+.my-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.categories img{
+    width: 100px;
+}
+.cat1, .cat2, .cat3{
+    border-radius: 10px !important;
+}
+.categories .cat1{
+    background-color: orange !important;
+}
+.categories .cat2{
+    background-color: orchid !important;
+}
+.categories .cat3{
+    background-color: blue !important;
+}
+#subscribe{
+    height: 400px;
+}
